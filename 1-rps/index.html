@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.min.css"/>
+
+    </head>
+    <body>
+        <header>
+            <h1>"The Game"</h1>
+        </header>
+        <div id="scoreboard">
+            <div class="score-item">
+                <header class="score-header">Wins</header>
+                <div class="score-value" id="score-wins"></div>
+            </div>
+            <div class="score-item">
+                <header class="score-header">Ties</header>
+                <div class="score-value" id="score-ties"></div>
+            </div>
+            <div class="score-item">
+                <header class="score-header">Losses</header>
+                <div class="score-value" id="score-losses"></div>
+            </div>
+        </div>
+        <div id="buttons">
+            <button id="btn-rock" onclick="playerChoice('rock')">Rock</button>
+            <button id="btn-paper" onclick="playerChoice('paper')">Paper</button>
+            <button id="btn-scissors" onclick="playerChoice('scissors')">Scissors</button>
+
+        </div>
+        <div id="sys-buttons">
+            <button id="btn-reset">New Game</button>
+
+
+            
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
